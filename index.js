@@ -191,16 +191,16 @@
 //   - If you have read it, log a string like `'You have already read "Sapiens", by Yuval Noah Harari'`
 //   - If not, log a string like `'You still need to read "A Life on Our Planet", by David Attenborough.'`"
 
-const readingList = [
-    {title: "Buku", author: "by orang", alreadyRead: true},
-    {title: "Buku Meow", author: "by orang kucing", alreadyRead: false},
-    {title: "Buku Entahla", author: "by meow", alreadyRead: true}
-]
+// const readingList = [
+//     {title: "Buku", author: "by orang", alreadyRead: true},
+//     {title: "Buku Meow", author: "by orang kucing", alreadyRead: false},
+//     {title: "Buku Entahla", author: "by meow", alreadyRead: true}
+// ]
 
-readingList.forEach(e => {
-    if(e.alreadyRead) console.log(`You have already read \"${e.title}\", ${e.author}`)
-    else console.log(`You still need to read read \"${e.title}\", ${e.author}`)
-});
+// readingList.forEach(e => {
+//     if(e.alreadyRead) console.log(`You have already read \"${e.title}\", ${e.author}`)
+//     else console.log(`You still need to read read \"${e.title}\", ${e.author}`)
+// });
 
 // ## The Recipe Card
 
@@ -270,3 +270,24 @@ readingList.forEach(e => {
 //     }
 // ]
 
+// function multiply(x,y) {
+//     const result = x * y;
+//     return result;
+// }
+// multiply(3,6);
+
+// let blog = [
+//     { title: "Blog Heading One", content: "Lorem ipsum", author: "Tilak" },
+//     { title: "Blog Heading Two", content: "Lorem ipsum", author: "Shafiq" },
+//     { title: "Blog Heading Three", content: "Lorem ipsum", author: "Nurain" },
+//     { title: "Blog Heading Four", content: "Lorem ipsum", author: "Veemelia" },
+// ];
+
+//   blog.forEach(e => {console.log(`Tile: ${e.title}\t\t Content: ${e.content}\t\t Written By: ${e.author}`)})
+
+ function divide(x, y) {
+    return x/y;
+}
+let result = divide(100, 2);
+console.log(result);
+console.log(divide(100, 2));
