@@ -38,4 +38,19 @@ function myFunction() {
       }
     }
   }
+  //   tableTag = document.querySelector("table");
+  //   table =
+  //     '<table id="myInput"><tr><th>Term</th><th>Class</th><th>Definition</th><th>Tag</th></tr>';
+  //   glossary.filter((g) => {
+  //     if (g.term.includes(input)) {
+  //       table += "<tr>";
+  //       table += `<td>${g.term}</td>`;
+  //       table += `<td>${g.class}</td>`;
+  //       table += `<td>${g.definition}</td>`;
+  //       table += `<td>${g.tags}</td>`;
+  //       table += "</tr>";
+  //     }
+  //   });
+  //   table += "</table>";
+  //   tableTag.innerHTML = table;
 }
