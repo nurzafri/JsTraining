@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid;
+        }
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Movie Information</h1>
+    <h2></h2>
+    <input type="text" id="myInput" placeholder="Search for Movie Info" title="Type in a Movie Name">
+    <input type="button" id="btnSearch" value="Search" onclick="getData();" />
+    <table>
+        <thead>
+           <tr>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Released</th>
+              <th>Runtime</th>
+              <th>Actors</th>
+              <th>Awards</th>
+              <th>Box Office</th>
+              <th>Genre</th>
+           </tr>
+        </thead>
+        <tbody id="data-output">
+           <!-- Prodcuts from javascript file in here. -->
+        </tbody>
+     </table>
+     <script src="movie.js"></script>
+</body>
+</html>
